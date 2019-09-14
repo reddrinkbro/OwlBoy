@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="매니져">
+      <UniqueIdentifier>{45fc7e26-585a-434a-843e-e459e46be338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="메인게임">
+      <UniqueIdentifier>{e5e7106c-c557-4f2a-bf2f-362d037f9df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{de59bd84-490f-4de3-b2d7-ca1c9eac4440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\타이머">
+      <UniqueIdentifier>{26cd077e-757e-4ad7-a19a-732334387876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\게임노드">
+      <UniqueIdentifier>{c74581e2-587b-42c6-b090-558f511f1e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\stdafx">
+      <UniqueIdentifier>{06a3d718-c25a-4a79-8877-9330efad880c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\이미지">
+      <UniqueIdentifier>{60422429-1dd3-46ec-8b7f-88632224d0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\프로그래스 바">
+      <UniqueIdentifier>{1f3921e4-c877-4df3-bca3-3c86de7df3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\유틸">
+      <UniqueIdentifier>{e75bf56a-db97-4fd2-8479-b6dfb045232b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\이펙트">
+      <UniqueIdentifier>{20a4ac81-1e2a-46f8-a1c6-e7dfe4dd0732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\애니메이션">
+      <UniqueIdentifier>{a7d5d296-d5d1-4535-b878-533478909d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\애니메이션\애니메이션 테스트 씬">
+      <UniqueIdentifier>{dbc8f9d1-58b7-41bb-af88-11065e7fcd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\INI">
+      <UniqueIdentifier>{beef2530-7bd7-4bde-be00-4d2b0b61627c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\로딩">
+      <UniqueIdentifier>{95b0a7f0-452d-4fbb-b791-1a871bcf444c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\로딩\로딩 씬">
+      <UniqueIdentifier>{f7eaea39-a398-412d-a874-098bd501e379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\픽셀 충돌">
+      <UniqueIdentifier>{bd5cef6a-77c9-4a6c-86c4-4c1d2ccef12e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\픽셀 충돌\픽셀 충돌 씬">
+      <UniqueIdentifier>{50703c14-b98f-46ba-8550-3afc2b0c398b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\사운드">
+      <UniqueIdentifier>{1bcd1389-577b-45cd-abb3-f78c836102de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="팀포트폴리오">
+      <UniqueIdentifier>{69de9158-a3f0-4d68-894b-ca39f48d38f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="팀포트폴리오\enemy">
+      <UniqueIdentifier>{3ed280e5-cd77-409c-9625-61980c3c90ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="팀포트폴리오\카메라">
+      <UniqueIdentifier>{292e7a22-fd70-46d8-a6c9-f919e9a96f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="팀포트폴리오\플레이어">
+      <UniqueIdentifier>{08137214-6c65-4d3f-928d-242ab33bd3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="팀포트폴리오\enemy\boss">
+      <UniqueIdentifier>{0e2585d6-e396-4e33-8765-1890b2ae90d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="팀포트폴리오\씬">
+      <UniqueIdentifier>{7f3a5f11-1b38-4087-8fb2-e99cbc67f0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="팀포트폴리오\총알">
+      <UniqueIdentifier>{66acbdb3-a8c3-4afc-abf8-18621a7c65b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="팀포트폴리오\UI">
+      <UniqueIdentifier>{9ae37748-b678-4055-ab83-bf4a03df57a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>메인게임</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>API\이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>API\유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>API\타이머</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>API\게임노드</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>API\stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>API\프로그래스 바</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>API\이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>API\애니메이션</Filter>
+    </ClCompile>
+    <ClCompile Include="txtDataManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="iniData.cpp">
+      <Filter>API\INI</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>API\로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>API\로딩\로딩 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="mountainScene.cpp">
+      <Filter>API\픽셀 충돌\픽셀 충돌 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="pixelCollision.cpp">
+      <Filter>API\픽셀 충돌</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="soundTestScene.cpp">
+      <Filter>API\사운드</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>팀포트폴리오\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="spikeBall.cpp">
+      <Filter>팀포트폴리오\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="gawk.cpp">
+      <Filter>팀포트폴리오\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>팀포트폴리오\카메라</Filter>
+    </ClCompile>
+    <ClCompile Include="minion.cpp">
+      <Filter>팀포트폴리오\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>팀포트폴리오\플레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>팀포트폴리오\enemy\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="village.cpp">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClCompile>
+    <ClCompile Include="bossShield.cpp">
+      <Filter>팀포트폴리오\enemy\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="bossScene.cpp">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>팀포트폴리오\총알</Filter>
+    </ClCompile>
+    <ClCompile Include="geddy.cpp">
+      <Filter>팀포트폴리오\플레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClCompile>
+    <ClCompile Include="titleScene.cpp">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClCompile>
+    <ClCompile Include="dungeon.cpp">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClCompile>
+    <ClCompile Include="torque.cpp">
+      <Filter>팀포트폴리오\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="optionWindow.cpp">
+      <Filter>팀포트폴리오\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="optionManager.cpp">
+      <Filter>팀포트폴리오\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="endingScene.cpp">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClCompile>
+    <ClCompile Include="playerDieScene.cpp">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="commonMacroFiunction.h">
+      <Filter>API\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>API\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>메인게임</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>API\이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>API\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>API\타이머</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>API\게임노드</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>API\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>API\프로그래스 바</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>API\이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>API\애니메이션</Filter>
+    </ClInclude>
+    <ClInclude Include="txtDataManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="iniData.h">
+      <Filter>API\INI</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>API\로딩</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>API\로딩\로딩 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="mountainScene.h">
+      <Filter>API\픽셀 충돌\픽셀 충돌 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelCollision.h">
+      <Filter>API\픽셀 충돌</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="soundTestScene.h">
+      <Filter>API\사운드</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>팀포트폴리오\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="spikeBall.h">
+      <Filter>팀포트폴리오\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="gawk.h">
+      <Filter>팀포트폴리오\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>팀포트폴리오\카메라</Filter>
+    </ClInclude>
+    <ClInclude Include="minion.h">
+      <Filter>팀포트폴리오\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="village.h">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>팀포트폴리오\플레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>팀포트폴리오\enemy\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="bossShield.h">
+      <Filter>팀포트폴리오\enemy\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="bossScene.h">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>팀포트폴리오\총알</Filter>
+    </ClInclude>
+    <ClInclude Include="geddy.h">
+      <Filter>팀포트폴리오\플레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClInclude>
+    <ClInclude Include="titleScene.h">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClInclude>
+    <ClInclude Include="dungeon.h">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClInclude>
+    <ClInclude Include="torque.h">
+      <Filter>팀포트폴리오\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="optionWindow.h">
+      <Filter>팀포트폴리오\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="optionManager.h">
+      <Filter>팀포트폴리오\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="endingScene.h">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClInclude>
+    <ClInclude Include="playerDieScene.h">
+      <Filter>팀포트폴리오\씬</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h" />
+  </ItemGroup>
+</Project>
